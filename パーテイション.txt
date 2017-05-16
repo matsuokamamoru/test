@@ -1,0 +1,32 @@
+/dev/vda1
+fdisk /dev/hda
+
+
+# expert
+# fdisk /dev/vda1
+
+# lvm pvscan
+# lvm vgscan
+# lvm lvscan
+
+# lvm pvcreate /dev/vda1
+# lvm pvscan
+# lvm pvdisplay /dev/vda1
+
+# lvm vgcreate VolGroup00 -s 32m /dev/vda1
+# lvm vgscan
+# lvm vgdisplay
+
+# lvm lvcreate -L 6500m -n LogVol00 VolGroup00
+# lvm lvcreate -L 1000m -n LogVol01 VolGroup00
+# lvm lvscan
+# lvm lvdisplay
+
+
+
+# mkfs.ext3 -j /dev/vda1
+# mkfs.ext3 -j /dev/VolGroup00/LogVol00
+# mkswap /dev/VolGroup00/LogVol01
+
+# mondorestore
+
