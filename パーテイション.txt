@@ -1,3 +1,7 @@
+
+hogehoeg
+
+
 /dev/vda1
 fdisk /dev/hda
 
