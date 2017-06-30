@@ -34,3 +34,5 @@ fdisk /dev/hda
 
 # mondorestore
 
+aaaaa
+
