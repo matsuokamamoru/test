@@ -1,3 +1,7 @@
+
+hogehoeg
+
+
 /dev/vda1
 fdisk /dev/hda
 
@@ -29,4 +33,6 @@ fdisk /dev/hda
 # mkswap /dev/VolGroup00/LogVol01
 
 # mondorestore
+
+aaaaa
 
